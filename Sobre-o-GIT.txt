@@ -1,0 +1,19 @@
+O que é GIT?
+
+Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo. O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos.
+Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central. 
+
+
+Como o GIT surgiu?
+
+O desenvolvimento do Git surgiu após vários desenvolvedores do kernel do Linux decidirem desistir de acessar ao sistema do BitKeeper, que é um software proprietário. O acesso gratuito ao BitKeeper foi removido pelo detentor dos direitos autorais, Larry McVoy, depois de acusar Andrew Tridgell de usar de engenharia reversa nos protocolos do BitKeeper, alegando violação da licença do mesmo.
+Torvalds queria um sistema distribuído que ele pudesse utilizar de forma similar ao BitKeeper (BK), mas nenhum dos sistemas livres disponíveis atendia suas necessidades, particularmente com relação à performance.
+O desenvolvimento do Git começou em 3 de Abril de 2005. O projeto foi anunciado em 6 de Abril, e tornou-se auto-hospedeiro no dia 7 de Abril. A primeira mescla de arquivos (merge) em múltiplos ramos (branches) foi realizado em 18 de Abril. Torvalds alcançou seus objetivos de performance; em 29 de Abril, o recém-nascido Git se tornou referência ao registrar patches para a árvore de desenvolvimento do kernel do Linux na taxa de 6,7 por segundo. No dia 16 de Junho, a entrega do kernel 2.6.12 foi gerenciada pelo Git.
+
+
+Qual o propósito do GIT?
+
+Um dos principais objetivos de design do Git é a flexibilidade. O Git é flexível em vários aspectos: suporte a vários tipos de fluxos de trabalho de desenvolvimento não lineares, em eficiência em projetos pequenos e grandes e em compatibilidade com muitos sistemas e protocolos existentes.
+O Git foi projetado para tratar os branches e tags como cidadãos de primeira classe (ao contrário do SVN) e operações que afetam branches e tags (como mesclagem ou reversão) também são armazenadas como parte do histórico de alterações. Nem todos os sistemas de controle de versão apresentam esse nível de rastreamento.
+Hoje, o Git é a melhor escolha para a maioria das equipes de software. Embora cada equipe seja diferente e deva fazer a própria análise, aqui estão os principais motivos pelos quais o controle de versão com Git é preferido em vez de alternativas:
+O Git tem a funcionalidade, desempenho, segurança e flexibilidade que a maioria das equipes e desenvolvedores individuais precisa. Esses atributos do Git são explicados acima. Nas comparações lado a lado com a maioria das outras alternativas, muitas equipes acham que o Git é muito favorável.
