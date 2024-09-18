@@ -23,4 +23,17 @@ Atualiza o repositório remoto com todos os commits feitos localmente em um bran
 ## git log
 Exibe o histórico de commits em um repositório Git. Ele exibe os exibe em formato de lista, incluindo o nome do autor do commit, a data e hora em que foi feito e a mensagem associada. Ele permite uma análise detalhada do desenvolvimento do projeto ao longo do tempo.
 ## git reset
-É uma maneira simples de desfazer alterações que não foram compartilhadas com mais ninguém. 
+É uma maneira simples de desfazer alterações que não foram compartilhadas com mais ninguém.
+# Exercícios
+## Para iniciar o GIT em um novo repositório:
+R: `git init`
+## Para adicionar as alterações realizadas no repositório:
+R: `git add .`
+## Para gravar as alterações:
+R: `git commit -m "mensagem de exemplo"`
+## Para enviar as alterações para a núvem/repositório online:
+R: `git push`
+## Se o repositório em meu computador estiver desatualizado, como faço para atualizá-lo?
+### (Lembrando que estarei atualizando com base no repositório salvo no GitHub)
+R: `git pull`
+
